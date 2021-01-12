@@ -12,6 +12,5 @@ namespace CursoMVC.Models
         [Display(Name = "Description")]
         [Required(ErrorMessage = "The description field is required.")]
         public string Description { get; set; }
-        public List<Product> Products { get; set; }
     }
 }
